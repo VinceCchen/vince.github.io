@@ -1,20 +1,63 @@
-# Site settings
-title: Vince Cheng Blog
-description: 记录AI学习之路
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# Site Info
+title: Vince Cheng
+tagline: '我？施工工地跑路的施工员，因为我想成为个单调的程序员！'
+# description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+baseurl: "/Vince"
+url: http://codinfox.github.io
+logo: '/public/logo.png'
 
-# User settings
-username: Vince Cheng
-user_description: 施工工地干施工员半年，就跑路了！因为我不想那样生活！出来之后我又进一家外企工厂，因为工作比较轻松，这样我就可以一边准备考研一边上班了。就这样我跨考计算机上岸，正在读计算机应用技术硕士，我希望这就是我想要的生活！感谢家人的支持！
-user_title: AI Engineer
-email: vincecccheng@163.com
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
 
-# Google-analytics
-google-analytics:
-  id: ""
+version: 1.0.0
 
-exclude: ['package.json', 'src' , 'node_modules']
+# About/contact
+author:
+  name: VinceCheng
+  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  gravatar: /public/img/th.jpg # md5 hash of your email address
+  contact:
+    # linkedin:  https://www.linkedin.com/in/lizhihao
+    github:    https://github.com/VinceCchen
+    # facebook:  <hide>
+    # twitter:   https://twitter.com/Li_Zhihao
+    weibo:     https://www.zhihu.com/people/cheng-76-53
+    # email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:
+    - '/about/'
+  Github Project:
+    - 'https://github.com/VinceCchen?tab=repositories'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/a_men_alone.jpg
+  caption: You'll never be alone &copy; <a href=""> Vince </a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+
