@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="049dd14c-4738-489d-906b-a7c3518e2597" name="Default Changelist" comment="" />
+    <list default="true" id="049dd14c-4738-489d-906b-a7c3518e2597" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575464407286</updated>
       <workItem from="1575464414225" duration="686000" />
-      <workItem from="1575465196161" duration="367000" />
+      <workItem from="1575465196161" duration="786000" />
     </task>
     <servers />
   </component>
