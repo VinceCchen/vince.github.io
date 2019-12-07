@@ -17,8 +17,8 @@ paginate:            5
 markdown:            kramdown
 kramdown:
     math_engine: katex
-# rouge
-highlighter:         pygments
+#
+highlighter:         rouge
 permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
